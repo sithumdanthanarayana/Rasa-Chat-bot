@@ -1,0 +1,164 @@
+version: "2.0"
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: degree
+  steps:
+  - intent: what_degree
+  - action: utter_whatdegree
+- story: technologysch
+  steps:
+  - intent: school_technology
+  - action: utter_technology_school
+- story: degtechno
+  steps:
+  - intent: agri
+  - action: utter_agtec
+  - intent: tecenviro
+  - action: utter_envbtec
+  - intent: texcloth
+  - action: utter_clothte
+  - intent: fashmerch
+  - action: utter_tfashon
+  - intent: bteletro
+  - action: utter_elebtec
+- story: eng
+  steps:
+  - intent: sceng
+  - action: utter_schoolofeng
+- story: engine
+  steps:
+  - intent: powersystem
+  - action: utter_powsy
+  - intent: telecomminication
+  - action: utter_telecoeng
+  - intent: engmanagement
+  - action: utter_manageng
+  - intent: infoeng
+  - action: utter_incominieng
+  - intent: civileng
+  - action: utter_civil
+  - intent: emechatro
+  - action: utter_mecchoeng
+  - intent: bioeng
+  - action: utter_biose
+- story: business
+  steps:
+  - intent: business_school
+  - action: utter_sltc_business
+- story: busness_degree
+  steps:
+  - intent: accounting_finance
+  - action: utter_acfinance
+  - intent: human_resource_management
+  - action: utter_huremanagement
+  - intent: marketing
+  - action: utter_marketing_bus
+  - intent: operations_management
+  - action: utter_op_managebus
+  - intent: supply_chain_management
+  - action: utter_supchain_manag
+  - intent: general_t
+  - action: utter_gen
+  - intent: management_t
+  - action: utter_tratour
+  - intent: tourism_and_digital_marketing
+  - action: utter_to_and_mark
+- story: it
+  steps:
+  - intent: school_of_computing_&_it
+  - action: utter_school_of_computing_&_it
+- story: it_degree
+  steps:
+  - intent: soft_it
+  - action: utter_software
+  - intent: cloud_it
+  - action: utter_cloud
+  - intent: cyber_it
+  - action: utter_cyber
+  - intent: data_it
+  - action: utter_data
+- story: musicschool
+  steps:
+  - intent: school_of_music
+  - action: utter_school_of_music
+- story: aboutmusic
+  steps:
+  - intent: music
+  - action: utter_music
+
+- story: po_graduate #starting
+  steps:
+  - intent: post_graduate
+  - action: utter_postgraduate
+- story: aboutmusic
+  steps:
+  - intent: msc_in_wireless_communication
+  - action: utter_wireless
+  - intent: msc_in_embedded_systems_and_ic_design
+  - action: utter_emberded
+
+- story: profstudies
+  steps:
+  - intent: foundation_studies
+  - action: utter_Professional Studies
+- story: professional_studies
+  steps:
+  - intent: certificate_in_multimedia_and_design
+  - action: utter_multimedia
+  - intent: higher_national_diploma_in_interactive_media
+  - action: utter_interactive
+
+- story: travelexcellence
+  steps:
+  - intent: center_of_excellence_travel_tourism_&_hospitality
+  - action: utter_hospitality
+- story: excellence_in_travel
+  steps:
+  - intent: general_t
+  - action: utter_gen
+  - intent: management_t
+  - action: utter_tratour
+  - intent: tourism_and_digital_marketing
+  - action: utter_to_and_mark
+  - intent: cetth
+  - action: utter_responcecetth
+  - intent: cetth
+  - action: utter_responcecetth
+  - intent: cetth
+  - action: utter_responcecetth
+  - intent: cetth
+  - action: utter_responcecetth
+  - intent: cetth
+  - action: utter_responcecetth
+  - intent: cetth
+  - action: utter_responcecetth
+
+- story: clothes
+  steps:
+  - intent: center_for_fashion
+  - action: utter_centerfashion
+- story: about_clothes
+  steps:
+  - intent: texcloth
+  - action: utter_clothte
+  - intent: fashmerch
+  - action: utter_tfashon
+  - intent: clothall
+  - action: utter_cfftct_all
+
+- story: cost
+  steps:
+  - intent: payment_details
+  - action: utter_paymentcost
+
+- story: bye
+  steps:
+  - intent: goodbye
+  - action: utter_bye
+
+
+
+

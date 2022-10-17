@@ -1,0 +1,317 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- what_degree:
+    use_entities: true
+- sceng:
+    use_entities: true
+- powersystem:
+    use_entities: true
+- telecomminication:
+    use_entities: true
+- engmanagement:
+    use_entities: true
+- infoeng:
+    use_entities: true
+- civileng:
+    use_entities: true
+- emechatro:
+    use_entities: true
+- bioeng:
+    use_entities: true
+- school_technology:
+    use_entities: true
+- bteletro:
+    use_entities: true
+- agri:
+    use_entities: true
+- tecenviro:
+    use_entities: true
+- texcloth:
+    use_entities: true
+- fashmerch:
+    use_entities: true
+- business_school:
+    use_entities: true
+- accounting_finance:
+    use_entities: true
+- human_resource_management:
+    use_entities: true
+- marketing:
+    use_entities: true
+- operations_management:
+    use_entities: true
+- supply_chain_management:
+    use_entities: true
+- general_t:
+    use_entities: true
+- management_t:
+    use_entities: true
+- tourism_and_digital_marketing:
+    use_entities: true
+- ttourism_management_general:
+    use_entities: true
+- school_of_computing_&_it:
+    use_entities: true
+- soft_it:
+    use_entities: true
+- cloud_it:
+    use_entities: true
+- cyber_it:
+    use_entities: true
+- data_it:
+    use_entities: true
+- school_of_music:
+    use_entities: true
+- music:
+    use_entities: true
+- post_graduate:
+    use_entities: true
+- msc_in_wireless_communication:
+    use_entities: true
+- msc_in_embedded_systems_and_ic_design:
+    use_entities: true
+- foundation_studies:
+    use_entities: true
+- certificate_in_multimedia_and_design:
+    use_entities: true
+- higher_national_diploma_in_interactive_media:
+    use_entities: true
+- center_of_excellence_travel_tourism_&_hospitality:
+    use_entities: true
+- cetth:
+    use_entities: true
+- center_for_fashion:
+    use_entities: true
+- clothall:
+    use_entities: true
+- payment_details:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hi, I am SLTC Chat bot
+  utter_whatdegree:
+  - buttons:
+    - payload: school_of_engineering
+      title: School of Engineering
+    - payload: school_of_technology
+      title: School of Technology
+    - payload: sltc_business_school
+      title: SLTC Business School
+    - payload: school_of_computing_&_it
+      title: School of Computing & IT
+    - payload: school_of_music
+      title: School of Music
+    - payload: post_graduate
+      title: School of Post Graduate Studies and Research
+    - payload: foundation_studies
+      title: School of Professional and Foundation Studies
+    - payload: center_of_excellence_travel_tourism_&_hospitality
+      title: CENTER OF EXCELLENCE TRAVEL TOURISM & HOSPITALITY
+    - payload: center_for_fashion
+      title: CENTER FOR FASHION, TEXTILE & CLOTHING TECHNOLOGIES
+    text: We offer 26 degree programmes bellow category.
+  utter_schoolofeng:
+  - buttons:
+    - payload: engineering_in_electronics_and_power_systems
+      title: BSc (Hons) in Engineering in Electronics and Power Systems
+    - payload: engineering_in_electronics_and_telecommunication
+      title: BSc (Hons) in Engineering in Electronics and Telecommunication
+    - payload: engineering_in_electronics_and_engineering_management
+      title: BSc (Hons) in Engineering in Electronics and Engineering Management
+    - payload: engineering_in_information_and_communication_engineering
+      title: BSc (Hons) in Engineering in Information and Communication Engineering (Software Engineering)
+    - payload: engineering_in_civil_engineering
+      title: BSc (Hons) in Engineering in Civil Engineering
+    - payload: engineering_in_mechatronics_engineering
+      title: BSc (Hons) in Engineering in Mechatronics Engineering
+    - payload: bio_systems_engineering
+      title: BSc (Hons) in Bio Systems Engineering
+    text: These are programs of School of Engineering
+  utter_powsy:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-electronic-and-power-systems)
+  utter_telecoeng:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-electronic-and-telecommunication)
+  utter_manageng:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-electronic-and-engineering-management)
+  utter_incominieng:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-information-and-communication-engineering)
+  utter_civil:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-civil-engineering)
+  utter_mecchoeng:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-mechatronics-engineering)
+  utter_biose:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-engineering/bsc-hons-bio-systems-engineering)
+  utter_technology_school:
+  - buttons:
+    - payload: electronics_technology
+      title: BTech (Hons) in Electronics
+    - payload: agricultural_technology
+      title: BTech (Hons) in Agricultural Technology
+    - payload: environmental_technology
+      title: BTech (Hons) in Environmental Technology
+    - payload: textile_and_clothing_technology
+      title: BSc in Textile and Clothing Technology
+    - payload: fashion_merchandise_management
+      title: BSc in Fashion Merchandise Management
+    text: These are programs of School of Technology
+  utter_elebtec:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-technology/btech-hons-in-electronics)
+  utter_agtec:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-technology/btech-hons-in-agriculture-technology)
+  utter_envbtec:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-technology/btech-hons-in-environmental-technology)
+  utter_clothte:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-technology/bsc-in-textile-and-clothing-technology)
+  utter_tfashon:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-technology/bsc-in-fashion-merchandise-management)
+  utter_sltc_business:
+  - buttons:
+    - payload: accounting_and_finance
+      title: BBM (Hons) in Accounting and Finance
+    - payload: human_resource_management
+      title: BBM (Hons) in Human Resource Management
+    - payload: marketing
+      title: BBM (Hons) in Marketing
+    - payload: operations_management
+      title: BBM (Hons) in Operations Management
+    - payload: supply_chain_management
+      title: BBM (Hons) in Supply Chain Management
+    - payload: travel_and_tourism_management_general
+      title: BSc in Travel and Tourism Management (General) Degree
+    - payload: travel_and_tourism_management
+      title: BSc (Hons) in Travel and Tourism Management
+    - payload: e-tourism_and_digital_marketing
+      title: BSc (Hons) in E-Tourism and Digital Marketing
+    text: These are programs of SLTC Business School
+  utter_acfinance:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bbm-hons-in-accounting-and-finance)
+  utter_huremanagement:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bbm-hons-in-human-resource-management)
+  utter_marketing_bus:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bbm-hons-in-marketing)
+  utter_op_managebus:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bbm-hons-in-operations-management)
+  utter_supchain_manag:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bbm-hons-in-supply-chain-management.php)
+  utter_gen:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bsc-in-travel-and-tourism-management-general-degree)
+  utter_tratour:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bsc-in-travel-and-tourism-management-honours-degree)
+  utter_to_and_mark:
+  - text: Please click here [website](https://sltc.ac.lk/education/business-school/bsc-in-e-tourism-and-digital-marketing-honours-degree)
+  utter_school_of_computing_&_it:
+  - buttons:
+    - payload: information_technology_in_software_engineering
+      title: BSc (Hons) in Information Technology in Software Engineering
+    - payload: information_technology_in_cloud_computing
+      title: BSc (Hons) in Information Technology in Cloud Computing
+    - payload: information_technology_in_cyber_security
+      title: BSc (Hons) in Information Technology in Cyber Security
+    - payload: information_technology_in_data_science
+      title: BSc (Hons) in Information Technology in Data Science
+    text: These are programs of School of Computing
+  utter_software:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-it-and-computing/bsc-hons-in-information-technology-in-software-engineering)
+  utter_cloud:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-it-and-computing/bsc-hons-in-information-technology-in-cloud-computing)
+  utter_cyber:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-it-and-computing/bsc-hons-in-information-technology-in-cyber-security)
+  utter_data:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-it-and-computing/bsc-hons-in-information-technology-in-data-science)
+  utter_school_of_music:
+  - buttons:
+    - payload: music
+      title: Bachelor of Music
+    text: This is the program of School of Music
+  utter_music:
+  - text: Please click here [website](https://sltc.ac.lk/schools/school-of-music)
+  utter_postgraduate:
+  - buttons:
+    - payload: msc_in_wireless_communication
+      title: MSc in Wireless Communications
+    - payload: msc_in_embedded_systems_and_ic_design
+      title: MSc in Embedded Systems and IC Design
+    text: This is the program of Postgraduate Study
+  utter_wireless:
+  - text: Please click here [website](https://sltc.ac.lk/msc/mscwc/)
+  utter_emberded:
+  - text: Please click here [website](https://sltc.ac.lk/msc/mscesicd/)
+  utter_Professional Studies:
+  - buttons:
+    - payload: certificate_in_multimedia_and_design
+      title: Certificate in Multimedia & Design
+    - payload: higher_national_diploma_in_interactive_media
+      title: BTEC Higher National Diploma in Interactive Media
+    text: This is the program of School of Professional Studies
+  utter_multimedia:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-professional-studies/certificate-in-multimedia-and-design)
+  utter_interactive:
+  - text: Please click here [website](https://sltc.ac.lk/education/school-of-professional-studies/btech-hnd-in-interactive-media)
+  utter_hospitality:
+  - buttons:
+    - payload: travel_and_tourism_management_general
+      title: BSc in Travel and Tourism Management (General) Degree
+    - payload: travel_and_tourism_management
+      title: BSc (Hons) in Travel and Tourism Management
+    - payload: e-tourism_and_digital_marketing
+      title: BSc (Hons) in E-Tourism and Digital Marketing
+    - payload: cetth
+      title: Hospitality Sales - E-Commerce and digital marketing - For Industry Professionals – 3 months
+    - payload: cetth
+      title: Hospitality Skills - For beginners – 3 months + industry placement 3 months
+    - payload: cetth
+      title: Listening to the Customer - For Industry Professionals – 4 days
+    - payload: cetth
+      title: Leading in the time of Crisis – Snr Managers – 01 day
+    - payload: cetth
+      title: Hotel Revenue Management, Strategies and tactics – For Industry Professionals – 01 day
+    - payload: cetth
+      title: Be the GM (Management Development Program) – Middle Managers in the Industry – 06 months
+    text: These are programs of Center of Excellence Travel Tourism & Hospitality
+  utter_responcecetth:
+  - text: Please click here [website](https://sltc.ac.lk/schools/cetth)
+  utter_centerfashion:
+  - buttons:
+    - payload: textile_and_clothing_technology
+      title: BSc in Textile and Clothing Technology
+    - payload: fashion_merchandise_management
+      title: BSc in Fashion Merchandise Management
+    - payload: clothall
+      title: Diploma in Clothing Manufacturing and Technology
+    - payload: clothall
+      title: Certificate in Merchandise Management and Technology
+    - payload: clothall
+      title: Certificate in Clothing manufacturing
+    - payload: clothall
+      title: Certificate course in Fashion and Retail
+    - payload: clothall
+      title: Certificate of Attendance in
+    - payload: clothall
+      title: Sourcing & Procurement of Fabrics and Accessories
+    - payload: clothall
+      title: Certificate of Attendance in making-up garments for business
+    - payload: clothall
+      title: Certificate of Attendance in basic pattern making for self-employment
+    - payload: clothall
+      title: Certificate of Attendance in Fashion development for business
+    text: These are programs of Center of Fashion Textile & Clothing Technologies
+  utter_cfftct_all:
+  - text: Please click here [website](https://sltc.ac.lk/schools/cftct)
+  utter_paymentcost:
+  - text: Please click here calculate your cost [website](https://sltc.ac.lk/course-calculator-2020/)
+  utter_bye:
+  - text: Thankyou for visit us, Good bye...
+actions: []
+forms: {}
+e2e_actions: []

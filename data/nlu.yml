@@ -1,0 +1,300 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good by
+    - see you later
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+- intent: what_degree
+  examples: |
+    - what degree programme you offer?
+    - i want get degree
+    - what are the degree you offer?
+    - what are the degree you have?
+    - what degree you can get me?
+    - i like do a degree
+    - i like enrol degree
+    - i want get a degree
+    - i like study higher education
+    - i want study higher education
+    - i want study degree
+    - what degree you offer
+    - degree
+- intent: sceng
+  examples: |
+    - i want get engineering degree
+    - i want study engineering degree
+    - i want study Engineering in Electronics and Power Systems
+    - i want study Engineering in Electronics and Telecommunication
+    - i want study Engineering in Electronics and Engineering Management
+    - i want study engineering in Information and Communication Engineering (Software Engineering)
+    - i want study Engineering in Civil Engineering
+    - i want study Engineering in Mechatronics Engineering
+    - i want study Bio Systems Engineering
+    - school_of_engineering
+    - School of Engineering
+    - engineering degree
+    - school of engineering
+- intent: powersystem
+  examples: |
+    - engineering in electronics and power systems
+    - i want know about engineering in electronics and power systems
+    - engineering_in_electronics_and_power_systems
+- intent: telecomminication
+  examples: |
+    - engineering in electronics and telecommunication
+    - i want know about engineering in electronics and telecommunication
+    - engineering_in_electronics_and_telecommunication
+- intent: engmanagement
+  examples: |
+    - engineering in electronics and engineering management
+    - i want know about engineering in electronics and engineering management
+    - engineering_in_electronics_and_engineering_management
+- intent: infoeng
+  examples: |
+    - engineering in information and communication engineering
+    - i want know about engineering in information and communication engineering
+    - engineering_in_information_and_communication_engineering
+- intent: civileng
+  examples: |
+    - engineering in civil engineering
+    - i want know about engineering in civil engineering
+    - engineering_in_civil_engineering
+- intent: emechatro
+  examples: |
+    - engineering in mechatronics engineering
+    - i want know about engineering_in_mechatronics_engineering
+    - engineering_in_mechatronics_engineering
+- intent: bioeng
+  examples: |
+    - bio systems engineering
+    - i want know about bio systems engineering
+    - bio_systems_engineering
+- intent: school_technology
+  examples: |
+    - i want get technology degree
+    - i want study technology degree5
+    - i want study Electronics technology
+    - i want study Agricultural Technology
+    - i want study Environmental Technology
+    - i want study extile and Clothing Technology
+    - i want study Fashion Merchandise Management
+    - school_of_technology
+    - School of Technology
+- intent: bteletro
+  examples: |
+    - i want know about electronics_technology
+    - BTech (Hons) in Electronics
+- intent: agri
+  examples: |
+    - i want know about agricultural_technology
+    - BTech (Hons) in Agricultural Technology
+- intent: tecenviro
+  examples: |
+    - i want know about environmental_technology
+    - BTech (Hons) in Environmental Technology
+- intent: texcloth
+  examples: |
+    - i want know about textile_and_clothing_technology
+    - BSc in Textile and Clothing Technology
+- intent: fashmerch
+  examples: |
+    - i want know about fashion_merchandise_management
+    - BSc in Fashion Merchandise Management
+- intent: business_school
+  examples: |
+    - i want get business degree
+    - i want study business degree
+    - i want study Accounting and Finance
+    - i want study Human Resource Management
+    - i want study Marketing
+    - i want study Operations Management
+    - i want study Supply Chain Management
+    - i want study travel and Tourism Management (General) Degree
+    - i want study Travel and Tourism Management
+    - i want study E-Tourism and Digital Marketing
+    - sltc_business_school
+- intent: accounting_finance
+  examples: |
+    - accounting and finance
+    - accounting_and_finance
+    - i want know about accounting and finance
+- intent: human_resource_management
+  examples: |
+    - human resource management
+    - human_resource_management
+    - i want know about human resource management
+- intent: marketing
+  examples: |
+    - marketing
+    - i want know about marketing
+- intent: operations_management
+  examples: |
+    - operations management
+    - operations_management
+    - i want know about operations management
+- intent: supply_chain_management
+  examples: |
+    - supply chain management
+    - supply_chain_management
+    - i want know about supply chain management
+- intent: general_t
+  examples: |
+    - travel and tourism management general
+    - travel_and_tourism_management_general
+    - i want know about travel and tourism management general
+- intent: management_t
+  examples: |
+    - travel and tourism management
+    - travel_and_tourism_management
+    - i want know about travel and tourism management
+- intent: tourism_and_digital_marketing
+  examples: |
+    - e-tourism and digital marketing
+    - e-tourism_and_digital_marketing
+    - i want know about e-tourism and digital marketing
+- intent: school_of_computing_&_it
+  examples: |
+    - i want get ict degree
+    - i want study computer degree
+    - i want study ict degree
+    - i want get computer degree
+    - i want study oftware Engineering
+    - i want study cloud Computing
+    - i want study Cyber Security
+    - i want study Data Science
+    - it school
+- intent: soft_it
+  examples: |
+    - information_technology_in_software_engineering
+    - information technology in data science
+    - i want know about information technology in data science
+- intent: cloud_it
+  examples: |
+    - information_technology_in_cloud_computing
+    - information technology in cloud computing
+    - i want know about information technology in cloud computing
+- intent: cyber_it
+  examples: |
+    - information_technology_in_cyber_security
+    - information technology in cyber security
+    - i want know about information technology in cyber security
+- intent: data_it
+  examples: |
+    - information_technology_in_data_science
+    - information technology in data science
+    - i want know about information technology in data science
+- intent: school_of_music
+  examples: |
+    - i want get music degree
+    - i want study music degree
+    - school_of_music
+    - school of music
+- intent: music
+  examples: |
+    - music
+    - music degree
+- intent: post_graduate
+  examples: |
+    - i want get post graduate degree
+    - i want study post graduate degree
+    - post_graduate
+    - post graduate
+- intent: msc_in_wireless_communication
+  examples: |
+    - msc in wireless communication
+    - msc_in_wireless_communication
+    - i want know about msc in wireless communication
+- intent: msc_in_embedded_systems_and_ic_design
+  examples: |
+    - msc in embedded systems and ic design
+    - msc_in_embedded_systems_and_ic_design
+    - i want know about msc in embedded systems and ic design
+- intent: foundation_studies
+  examples: |
+    - i want do profeddional and foundation studies
+    - i want study profeddional and foundation studies
+    - i want study Certificate in Multimedia and Design
+    - i want study Higher National Diploma in Interactive Media
+    - foundation_studies
+- intent: certificate_in_multimedia_and_design
+  examples: |
+    - certificate in multimedia and design
+    - certificate_in_multimedia_and_design
+    - i want know about certificate in multimedia and design
+- intent: higher_national_diploma_in_interactive_media
+  examples: |
+    - higher national diploma in interactive media
+    - higher_national_diploma_in_interactive_media
+    - i want know about higher national diploma in interactive media
+- intent: center_of_excellence_travel_tourism_&_hospitality
+  examples: |
+    - i want get tourism degree
+    - i want study tourism degree
+    - i want study Travel and Tourism Management (General) Degree
+    - i want study Travel and Tourism Management
+    - i want study E-Tourism and Digital Marketing
+    - i want study Hospitality Sales - E-Commerce and digital marketing
+    - i want study Hospitality Skills
+    - i want study Listening to the Customer
+    - i want study Leading in the time of Crisis
+    - i want study Hotel Revenue Management, Strategies and tactics
+    - i want study Be the GM (Management Development Program)
+    - hospitality
+    - center_of_excellence_travel_tourism_&_hospitality
+- intent: cetth
+  examples: |
+    - Hospitality Sales
+    - Hospitality Skills
+    - Listening to the Customer
+    - Leading in the time of Crisis
+    - Hotel Revenue Management, Strategies and tactics
+    - Be the GM (Management Development Program)
+    - cetth
+- intent: center_for_fashion
+  examples: |
+    - i want get fashon degree
+    - i want study textile and Clothing Technology
+    - centerfashion
+    - center_for_fashion
+- intent: clothall
+  examples: |
+    - manufacturing_clothing
+    - merchandise_management
+    - certificate_in_Clothing_manufacturing
+    - fashion_and_retail
+    - attendance_in
+    - fabrics_and_accessories
+    - garments_for_business
+    - self_employment
+    - fashion_development_for_business
+    - clothall
+- intent: payment_details
+  examples: |
+    - What is the fee?
+    - How much about cost?
+    - How much degree fee?
+    - how much degree cost?
+    - what is the degree fee?
+    - what is the degree cost?
+    - payment
+    - cost
